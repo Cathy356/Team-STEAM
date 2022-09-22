@@ -1,0 +1,47 @@
+/*Import*/
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+
+/*Spacing*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: pink;
+  font-family: 'Times', sans-serif;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(180, 49, 49)
+    
+/*Nav Bar*/
+}
+nav{
+  background-color: rgb(89, 182, 165);
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 150px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style:none;
+  display: inline-block;
+  padding: 2px 80px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px;
+}
